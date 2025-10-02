@@ -2,8 +2,8 @@ public class TelevisiModern extends Televisi{
     private String modusTampilan, dvd;
 
     public TelevisiModern(String mrk, int jumlahChannel){
-       super.merk = mrk;
-       super.jumlahChannel = jumlahChannel;
+       merk = mrk;
+       this.jumlahChannel = jumlahChannel;
     }
 
     public void gantiModusTampilan(String modus){

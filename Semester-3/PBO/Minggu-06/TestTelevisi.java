@@ -4,6 +4,7 @@ public class TestTelevisi {
         System.out.println("Channel aktif: " + tv.getChannelAktif());
         tv.pindahChannel(20);
         System.out.println("Channel aktif sekarang: " + tv.getChannelAktif());
+        tv.gantiModusTampilan("HDMI");
         tv.mainkanDVD();
         tv.masukkanDVD("The Matrix");
         tv.mainkanDVD();
